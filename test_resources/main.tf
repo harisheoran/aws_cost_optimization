@@ -18,10 +18,10 @@ module "ec2" {
     ami = var.ami
     ec2-name = var.ec2-name
     instance_type = var.instance_type
-}
-*/
+}*/
+
 
 module "snapshots" {
     source = "./modules/snapshots"
-    volume_id = "vol-08f40fdc6a4ec83a4"
+    volume_id = "vol-05aeaa8a4366554b8"
 }
